@@ -35,7 +35,7 @@ export default function Navbar() {
       <div className={`container-fluid ${styles.containerFluid}`}>
         <div className={styles.menu}>
           <a className={`navbar-brand ${styles.logo}`} href="/">
-            <img className={styles.img} src="logo.png" alt="" />
+            <Link to="/models"><img className={styles.img} src="logo.png" /></Link>
           </a>
           <ul>
             {isAuthenticated ? (
@@ -96,7 +96,7 @@ export default function Navbar() {
           <div className={`offcanvas-header ${styles.headers}`}>
             <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
               <a className={`navbar-brand ${styles.logo}`} href="/">
-                <img className={styles.img} src="preview.png" alt="logo" />
+                <Link to="/models"><img className={styles.img} src="preview.png" alt="logo" /></Link>
               </a>
             </h5>
             <div className={styles.header}>
