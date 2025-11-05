@@ -1,0 +1,196 @@
+.title {
+    font-weight: 200;
+    text-align: center;
+    margin: 40px 0;
+    font-size: 50px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    flex: 1 1 250px;
+    max-width: 300px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h5 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.filterSection h6 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.filterSection label {
+    display: flex;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    gap: 10px;
+    align-items: center;
+    font-weight: 550;    
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.categories span {
+    background-color: #000000;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.categories span:hover {
+    background-color: rgb(76, 74, 74);
+}
+
+.cardsContainer {
+    flex: 3 1 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.card {
+    flex: 1 1 250px;
+    max-width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    padding: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+
+.cardImg {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.cardBody {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.cardTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: black;
+    font-style: italic;
+}
+
+.cardText {
+    font-size: 14px;
+    color: #333;
+}
+
+.cardPrice {
+    font-weight: bold;
+    color: rgb(2, 114, 2);
+    margin-top: auto;
+}
+
+.cardBtn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #4b4545;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cardBtn:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+}
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardsContainer {
+        justify-content: center;
+    }
+
+    .card {
+        flex: 1 1 45%;
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 35px;
+    }
+
+    .sidebar {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .title{
+        padding: 0px 10px;
+        font-size: 30px;
+    }
+    .cardsContainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding: 0;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .cardImg {
+        width: 100%;        
+        height: auto;        
+    }
+}

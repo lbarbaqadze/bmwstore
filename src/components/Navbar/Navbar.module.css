@@ -1,0 +1,145 @@
+.container {
+    padding: 3px 50px;
+}
+
+.logo img {
+    width: 75px;
+    height: 75px;
+}
+
+.containerFluid {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 550;
+    transition: 0.3s;
+}
+
+.link:hover {
+    color: rgb(113, 112, 112);
+}
+
+.link1 {
+    color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px 14px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 450;
+    transition: 0.3s;
+    background-color: transparent;
+}
+
+.link1:hover {
+    background-color: black;
+    color: white;
+}
+
+.menuicon {
+    display: none !important;
+}
+
+.headers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header ul li {
+    border: 1px solid rgb(82, 82, 82);
+    color: rgb(82, 82, 82);
+    border-radius: 20px;
+    padding: 1px 8px;
+    font-size: 10px !important;
+}
+
+.sidebar {
+    height: max-content !important;
+}
+
+.tag {
+    font-size: 18px;
+
+}
+
+@media screen and (max-width: 1150px) {
+    .container {
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 913px) {
+    .menu {
+        gap: 0;
+    }
+
+    .link1 {
+        font-size: 14px;
+    }
+
+    .link {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        padding: 3px 15px;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .menuicon {
+        display: flex !important;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        padding: 0px;
+    }
+
+    .logo img {
+        width: 60px;
+        height: 60px;
+    }
+}

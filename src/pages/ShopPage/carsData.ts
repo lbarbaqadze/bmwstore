@@ -1,0 +1,27 @@
+const path = process.env.NODE_ENV === "production" ? "/bmwstore" : "";
+
+export const cars = [
+  { id: 1, category: "X", title: "XM", description: "Full-size luxury SUV with cutting-edge technology.", img: `${path}/shop-images/img1.png`, price: "$200,000" },
+  { id: 2, category: "X", title: "XM", description: "Powerful SUV combining luxury and sportiness.", img: `${path}/shop-images/img2.png`, price: "$235,000" },
+  { id: 3, category: "X", title: "X7", description: "Flagship SUV with maximum space and comfort.", img: `${path}/shop-images/img3.png`, price: "$170,000" },
+  { id: 4, category: "X", title: "X6 M", description: "Grand coupe with thrilling performance and style.", img: `${path}/shop-images/img4.png`, price: "$150,000" },
+  { id: 5, category: "X", title: "X6", description: "Luxury SUV with dynamic coupe-like design.", img: `${path}/shop-images/img5.png`, price: "$85,000" },
+  { id: 6, category: "X", title: "X5 M", description: "High-performance SUV designed for speed and agility.", img: `${path}/shop-images/img6.png`, price: "$95,000" },
+  { id: 7, category: "X", title: "X5", description: "Spacious luxury SUV perfect for family trips.", img: `${path}/shop-images/img7.png`, price: "$110,000" },
+  { id: 8, category: "X", title: "X4 M", description: "Sporty compact SUV with dynamic handling.", img: `${path}/shop-images/img8.png`, price: "$145,000" },
+  { id: 9, category: "X", title: "X4", description: "Compact SUV combining style and practicality.", img: `${path}/shop-images/img9.png`, price: "$175,000" },
+  { id: 10, category: "X", title: "X3", description: "Versatile SUV balancing comfort and performance.", img: `${path}/shop-images/img10.png`, price: "$165,000" },
+  { id: 11, category: "7", title: "7 Series", description: "Flagship luxury sedan with advanced technology.", img: `${path}/shop-images/img11.png`, price: "$210,000" },
+  { id: 12, category: "7", title: "i7", description: "Electric luxury sedan combining sustainability and comfort.", img: `${path}/shop-images/img12.png`, price: "$170,000" },
+  { id: 13, category: "6", title: "i5", description: "Electric sedan with modern performance and efficiency.", img: `${path}/shop-images/img13.png`, price: "$90,000" },
+  { id: 14, category: "6", title: "M4", description: "High-performance coupe designed for driving enthusiasts.", img: `${path}/shop-images/img14.png`, price: "$100,000" },
+  { id: 15, category: "4", title: "M4", description: "Sporty coupe delivering thrilling track performance.", img: `${path}/shop-images/img15.png`, price: "$95,000" },
+  { id: 16, category: "4", title: "M4", description: "Dynamic coupe with precise handling and power.", img: `${path}/shop-images/img16.png`, price: "$80,000" },
+  { id: 17, category: "4", title: "4 Series", description: "Luxury coupe with sporty design and comfort.", img: `${path}/shop-images/img17.png`, price: "$110,000" },
+  { id: 18, category: "4", title: "4 Series", description: "Elegant coupe offering refined performance.", img: `${path}/shop-images/img18.png`, price: "$125,000" },
+  { id: 19, category: "3", title: "M3", description: "High-performance sports sedan with track-ready dynamics.", img: `${path}/shop-images/img19.png`, price: "$135,000" },
+  { id: 20, category: "3", title: "M3", description: "Iconic sports sedan built for speed and agility.", img: `${path}/shop-images/img20.png`, price: "$230,000" },
+  { id: 21, category: "3", title: "3 Series", description: "Premium sedan combining comfort and performance.", img: `${path}/shop-images/img21.png`, price: "$165,000" },
+  { id: 22, category: "2", title: "M2", description: "Compact sports coupe delivering pure driving pleasure.", img: `${path}/shop-images/img22.png`, price: "$70,000" },
+  { id: 23, category: "1", title: "1 Series", description: "Entry-level luxury hatchback with sporty feel.", img: `${path}/shop-images/img23.png`, price: "$75,000" },
+];
