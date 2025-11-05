@@ -3,6 +3,9 @@ import styles from "./Signin.module.css";
 import { useState } from "react";
 
 export default function SignIn() {
+
+  const path = process.env.NODE_ENV === "production" ? "/bmwstore" : "";
+
   const navigate = useNavigate();
 
   const [email, setEmail] = useState('');
@@ -35,7 +38,7 @@ export default function SignIn() {
           onSubmit={handleSignIn}
         >
           <div className="text-center mb-4">
-            <img className="mb-3" src="/preview.png" alt="Logo" width="72" height="72" />
+            <img className="mb-3" src={`${path}/preview.png`} alt="Logo" width="72" height="72" />
             <h1 className="h3 mb-3 fw-normal">Please Sign In</h1>
             {error && <p style={{ color: 'red' }}>{error}</p>}
           </div>
