@@ -112,7 +112,7 @@ export default function Navbar() {
                   </li>
                 ) : (
                   <>
-                    <li><Link className={styles.link} to="/" onClick={() => handleNavClick("/signin")}>Sign In</Link></li>
+                    <li><Link className={styles.link} to="/signin" onClick={() => handleNavClick("/signin")}>Sign In</Link></li>
                     <li><Link className={styles.link} to="/signup" onClick={() => handleNavClick("/signup")}>Sign Up</Link></li>
                   </>
                 )}

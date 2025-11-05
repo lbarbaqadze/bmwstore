@@ -48,11 +48,6 @@
     font-size: 20px;
 }
 
-.card button:hover {
-    background-color: black;
-    color: white;
-}
-
 @media screen and (max-width: 823px) {
     .cardsContainer {
         gap: 50px;

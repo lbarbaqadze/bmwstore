@@ -202,11 +202,8 @@ const baseArrow = `
   cursor: pointer;
   transition: 0.2s ease;
   z-index: 4;
-
-  &:hover {
-    background-color: black;
-    color: white;
-  }
+  color: black;
+  
 `;
 
 export const LeftArrow = styled.button`

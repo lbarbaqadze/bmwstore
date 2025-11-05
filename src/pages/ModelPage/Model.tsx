@@ -55,10 +55,10 @@ export default function Model() {
         </Buttons>
         <ArrowsContainer>
           <LeftArrow onClick={prevSlide}>
-            <FontAwesomeIcon icon={faChevronLeft} style={{color: "black"}} />
+            <FontAwesomeIcon icon={faChevronLeft} className={styles.icon1}/>
           </LeftArrow>
           <RightArrow onClick={nextSlide}>
-            <FontAwesomeIcon icon={faChevronRight} style={{color: "black"}} />
+            <FontAwesomeIcon icon={faChevronRight} className={styles.icon1} />
           </RightArrow>
         </ArrowsContainer>
       </Header>
