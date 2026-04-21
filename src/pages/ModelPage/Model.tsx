@@ -22,7 +22,7 @@ import Card from "../../components/Card/Card";
 import Footer from "../../components/Footer/Footer";
 
 export default function Model() {
-  const path = process.env.NODE_ENV === "production" ? "/bmwstore" : "";
+  
 
   const cars = [
     { name: "BMW M8", image: `/home-images/m8.png` },

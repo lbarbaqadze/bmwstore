@@ -2,7 +2,6 @@ import styles from "./Carousel.module.css";
 
 export default function Carousel() {
 
-    const path = process.env.NODE_ENV === "production" ? "/bmwstore" : "";
 
     return (
         <div id="myCarousel" className="carousel slide mb-3" data-bs-ride="carousel">

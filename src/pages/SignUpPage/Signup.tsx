@@ -4,8 +4,6 @@ import { useState } from "react";
 
 export default function SignUp() {
 
-  const path = process.env.NODE_ENV === "production" ? "/bmwstore" : "";
-
   const navigate = useNavigate();
 
   const [name, setName] = useState('');

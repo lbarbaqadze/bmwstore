@@ -1,5 +1,3 @@
-const path = process.env.NODE_ENV === "production" ? "/bmwstore" : "";
-
 export const cars = [
   { id: 1, category: "X", title: "XM", description: "Full-size luxury SUV with cutting-edge technology.", img: `/shop-images/img1.png`, price: "$200,000" },
   { id: 2, category: "X", title: "XM", description: "Powerful SUV combining luxury and sportiness.", img: `/shop-images/img2.png`, price: "$235,000" },

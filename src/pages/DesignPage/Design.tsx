@@ -3,8 +3,6 @@ import Footer from "../../components/Footer/Footer";
 
 export default function Design() {
 
-    const path = process.env.NODE_ENV === "production" ? "/bmwstore" : "";
-
     return (
         <>
             <Carousel />

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
 
-    const path = process.env.NODE_ENV === "production" ? "/bmwstore" : "";
 
     return (
         <div className="container">
