@@ -15,7 +15,7 @@ export default function Design() {
                 <div className="row text-center mb-5">
                     <div className="col-lg-4">
                         <img
-                            src={`${path}/design-images/salon1.webp`}
+                            src={`/design-images/salon1.webp`}
                             alt="Innovation"
                             className="rounded-circle"
                             style={{ width: '140px', height: '140px', objectFit: 'cover' }}
@@ -27,7 +27,7 @@ export default function Design() {
 
                     <div className="col-lg-4">
                         <img
-                            src={`${path}/design-images/salon2.webp`}
+                            src={`/design-images/salon2.webp`}
                             alt="Innovation"
                             className="rounded-circle"
                             style={{ width: '140px', height: '140px', objectFit: 'cover' }}
@@ -38,7 +38,7 @@ export default function Design() {
                     </div>
                     <div className="col-lg-4">
                         <img
-                            src={`${path}/design-images/salon3.jpg`}
+                            src={`/design-images/salon3.jpg`}
                             alt="Innovation"
                             className="rounded-circle"
                             style={{ width: '140px', height: '140px', objectFit: 'cover' }}
@@ -60,7 +60,7 @@ export default function Design() {
                         <p className="lead">Dynamic lines and aggressive proportions create a look thats instantly recognizable on the road.</p>
                     </div>
                     <div className="col-md-5">
-                        <img src={`${path}/design-images/salon4.webp`} className="featurette-image img-fluid mx-auto" alt="Bold Exterior Design" />
+                        <img src={`/design-images/salon4.webp`} className="featurette-image img-fluid mx-auto" alt="Bold Exterior Design" />
                     </div>
                 </div>
 
@@ -74,7 +74,7 @@ export default function Design() {
                         <p className="lead">Spacious cabin, premium finishes, and intuitive layout designed for the modern driver.</p>
                     </div>
                     <div className="col-md-5 order-md-1">
-                        <img src={`${path}/design-images/salon5.jpg`} className="featurette-image img-fluid mx-auto" alt="Interior Elegance" />
+                        <img src={`/design-images/salon5.jpg`} className="featurette-image img-fluid mx-auto" alt="Interior Elegance" />
                     </div>
                 </div>
 
@@ -88,7 +88,7 @@ export default function Design() {
                         <p className="lead">State-of-the-art infotainment, driver assistance, and connectivity for a smarter ride.</p>
                     </div>
                     <div className="col-md-5">
-                        <img src={`${path}/design-images/salon6.jpg`} className="featurette-image img-fluid mx-auto" alt="Advanced Technology" />
+                        <img src={`/design-images/salon6.jpg`} className="featurette-image img-fluid mx-auto" alt="Advanced Technology" />
                     </div>
                 </div>
 
@@ -116,7 +116,7 @@ export default function Design() {
                     <div className="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
                         <img
                             className="rounded-lg-3"
-                            src={`${path}/design-images/luxury3.jpg`}
+                            src={`/design-images/luxury3.jpg`}
                             alt="BMW Hero"
                             width="720"
                         />

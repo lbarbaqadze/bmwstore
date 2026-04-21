@@ -39,7 +39,7 @@ export default function Blog() {
                             </div>
                             <div className="col-auto d-none d-lg-block">
                                 <img
-                                    src={`${path}/blog-images/bmwal.jpg`}
+                                    src={`/blog-images/bmwal.jpg`}
                                     alt="BMW AI"
                                     width="200"
                                     height="250"
@@ -64,7 +64,7 @@ export default function Blog() {
                             </div>
                             <div className="col-auto d-none d-lg-block">
                                 <img
-                                    src={`${path}/blog-images/luxury1.webp`}
+                                    src={`/blog-images/luxury1.webp`}
                                     alt="BMW Interior"
                                     width="200"
                                     height="250"

@@ -15,7 +15,7 @@ export default function Footer() {
                         className="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
                         aria-label="Bootstrap"
                     >
-                        <img src={`${path}/logo.png`} alt="logo" 
+                        <img src={`/logo.png`} alt="logo" 
                         style={{
                             width: "50px",
                             height: "50px"

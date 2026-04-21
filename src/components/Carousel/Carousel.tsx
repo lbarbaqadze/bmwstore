@@ -14,7 +14,7 @@ export default function Carousel() {
 
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={`${path}/carousel-images/img1.jpg`} className={`d-block w-100 ${styles.carouselImage}`} alt="Slide 1" />
+                    <img src={`/carousel-images/img1.jpg`} className={`d-block w-100 ${styles.carouselImage}`} alt="Slide 1" />
                     <div className="carousel-caption text-start">
                         <h1>Precision</h1>
                         <p className="opacity-75">Experience the ultimate blend of performance, innovation in every BMW design</p>
@@ -22,7 +22,7 @@ export default function Carousel() {
                 </div>
 
                 <div className="carousel-item">
-                    <img src={`${path}/carousel-images/img2.jpg`} className={`d-block w-100 ${styles.carouselImage}`} alt="Slide 2" />
+                    <img src={`/carousel-images/img2.jpg`} className={`d-block w-100 ${styles.carouselImage}`} alt="Slide 2" />
                     <div className="carousel-caption">
                         <h1>Elegance</h1>
                         <p>Sleek lines, refined details, and a driving experience crafted for perfection</p>
@@ -30,7 +30,7 @@ export default function Carousel() {
                 </div>
 
                 <div className="carousel-item">
-                    <img src={`${path}/carousel-images/img3.jpg`} className={`d-block w-100 ${styles.carouselImage}`} alt="Slide 3" />
+                    <img src={`/carousel-images/img3.jpg`} className={`d-block w-100 ${styles.carouselImage}`} alt="Slide 3" />
                     <div className="carousel-caption text-end">
                         <h1>Power</h1>
                         <p>Dynamic engineering meets bold design to deliver unmatched performance and style</p>

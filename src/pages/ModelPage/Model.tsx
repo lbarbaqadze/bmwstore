@@ -25,9 +25,9 @@ export default function Model() {
   const path = process.env.NODE_ENV === "production" ? "/bmwstore" : "";
 
   const cars = [
-    { name: "BMW M8", image: `${path}/home-images/m8.png` },
-    { name: "BMW M5", image: `${path}/home-images/m5.png` },
-    { name: "BMW X6", image: `${path}/home-images/x6.png` },
+    { name: "BMW M8", image: `/home-images/m8.png` },
+    { name: "BMW M5", image: `/home-images/m5.png` },
+    { name: "BMW X6", image: `/home-images/x6.png` },
   ];
 
   const [current, setCurrent] = useState(0);
@@ -80,7 +80,7 @@ export default function Model() {
 
       <div className={styles.containerTwo}
         style={{
-          backgroundImage: `url(${path}/home-images/background.jpg)`,
+          backgroundImage: `url(/home-images/background.jpg)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -90,14 +90,14 @@ export default function Model() {
       </div>
 
       <div className={styles.containerThree}>
-        <Card ImgSrc={`${path}/home-images/img1.png`}
+        <Card ImgSrc={`/home-images/img1.png`}
         Paragraph="BMW ELECTRIFIED"
         Title="THE JOY OF ELECTRIC DRIVING"
         MiniTitle="100 % electric. 100 % driving pleasure. 100 % BMW. Experience an 
         entirely new sensation of sheer driving pleasure."
         Button="Know More"
         />
-        <Card ImgSrc={`${path}/home-images/img2.png`}
+        <Card ImgSrc={`/home-images/img2.png`}
         Paragraph="BMW FINANCIAL SERVICES"
         Title="BMW Special offers"
         MiniTitle="100 % electric. 100 % driving pleasure. 100 % BMW. Experience an 
